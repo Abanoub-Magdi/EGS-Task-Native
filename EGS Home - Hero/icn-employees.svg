@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
+  <g id="icn-employees" transform="translate(-620 -252)">
+    <g id="people" transform="translate(620 252)">
+      <path id="Vector" d="M0,0H28V28H0Z" fill="none" opacity="0"/>
+      <path id="Vector-2" data-name="Vector" d="M3.488,6.732a.862.862,0,0,0-.245,0,3.378,3.378,0,1,1,.245,0Z" transform="translate(16.963 2.333)" fill="#fff"/>
+      <path id="Vector-3" data-name="Vector" d="M4.888,5.475a7.244,7.244,0,0,1-4.83.98A7.619,7.619,0,0,0,.747,3.316,7.169,7.169,0,0,0,0,.073a7.277,7.277,0,0,1,4.877.968A2.472,2.472,0,0,1,4.888,5.475Z" transform="translate(19.367 11.675)" fill="#fff"/>
+      <path id="Vector-4" data-name="Vector" d="M3.243,6.732a.862.862,0,0,1,.245,0,3.366,3.366,0,1,0-.245,0Z" transform="translate(4.27 2.333)" fill="#fff"/>
+      <path id="Vector-5" data-name="Vector" d="M5.314,3.317A7.6,7.6,0,0,0,6,6.49a7.209,7.209,0,0,1-4.62-1,2.478,2.478,0,0,1,0-4.445A7.165,7.165,0,0,1,6.049.05,7.418,7.418,0,0,0,5.314,3.317Z" transform="translate(2.327 11.675)" fill="#fff"/>
+      <path id="Vector-6" data-name="Vector" d="M4.165,8.015a1.318,1.318,0,0,0-.3,0,4.025,4.025,0,1,1,.3,0Z" transform="translate(9.975 10.5)" fill="#fff"/>
+      <path id="Vector-7" data-name="Vector" d="M1.321,1.006a2.4,2.4,0,0,0,0,4.282,7.129,7.129,0,0,0,7.3,0,2.4,2.4,0,0,0,0-4.282A7.129,7.129,0,0,0,1.321,1.006Z" transform="translate(9.027 19.924)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

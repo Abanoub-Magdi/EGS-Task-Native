@@ -1,0 +1,721 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'SuisseIntl';
+    src: url('../fonts/SuisseIntl-Bold.ttf') format('truetype');
+    font-style: normal;
+}
+
+body {
+    line-height: 1.6;
+    font-family: 'SuisseIntl', sans-serif;
+    background-color: #F9F9F8;
+    /* touch-action: pan-y; */
+}
+
+
+/* #region: Header & navebar & logo */
+
+
+.header {
+    background: #252626;
+    /* color: #fff;  */
+    padding: 1rem 0;
+    position: sticky;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+
+}
+
+.navbar {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+
+}
+
+.nav-links li {
+    padding-left: 2rem;
+    margin-left: 1rem;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s;
+    font-style: initial;
+}
+
+.nav-links a:hover {
+    color: #f4f4f4;
+}
+
+.menu-toggle {
+    display: none;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.contact-button {
+    /* display: inline-block; */
+    /* position: right; */
+    /* display: flex; */
+    /* top: 26px; */
+    width: 115px;
+    height: 37px;
+    background: var(--unnamed-color-e00800) 0% 0% no-repeat padding-box;
+    background: #E00800 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+    color: #fff;
+    margin-left: 14rem;
+    border: none;
+
+}
+
+/* footer logo */
+.logo {
+    position: relative;
+    display: flex;
+    top: 2rem;
+    left: 5rem;
+    width: 10rem;
+    height: 3.5rem;
+}
+
+.logo-header {
+    top: 20px;
+    left: 112px;
+    width: 104px;
+    height: 48px;
+}
+
+/* #endregion */
+
+
+/* #region: Service Card Style */
+
+
+.card-section {
+    justify-content: center;
+    background: #F9F9F8 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    /* margin-bottom: 30px; */
+    top: 0px;
+    left: 0px;
+    position: relative;
+    /* background: #2806ea 0% 0% no-repeat padding-box; */
+    opacity: 1;
+    padding-top: 30rem;
+    z-index: 9;
+    justify-content: center;
+    /* position: relative; */
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    font-size: 50px;
+}
+
+.card {
+    top: 265px;
+    left: 113px;
+    width: 1141px;
+    height: 509px;
+    /* UI Properties */
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 50px;
+    opacity: 1;
+    box-shadow: 0px 0px 5px #00000029;
+}
+
+.services-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.services-row:last-child {
+    margin-bottom: 0;
+}
+
+.service {
+    top: 294px;
+    left: 920px;
+    opacity: 1;
+    padding: 40px;
+}
+
+.service:last-child {
+    margin-right: 0;
+}
+
+.service h2 {
+    margin: 0;
+}
+
+.service p {
+    margin: 10px 0 10px 0;
+}
+
+.service a {
+    text-decoration: none;
+
+    top: 453px;
+    left: 146px;
+    width: 87px;
+    height: 18px;
+    letter-spacing: 0px;
+    /* UI Properties */
+    color: #000000;
+    opacity: 1;
+    text-transform: capitalize;
+    text-align: right;
+    font: normal normal bold 14px/18px Suisse Int'l;
+
+
+
+}
+
+@media (max-width: 768px) {
+    .services-row {
+        flex-direction: column;
+    }
+
+    .service {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .service:last-child {
+        margin-bottom: 0;
+    }
+}
+
+/*#endregion*/
+
+
+/* #region: capabilities-card2 section */
+
+/* Card Section */
+.card-sectionx {
+    justify-content: center;
+    opacity: 1;
+    background-repeat: no-repeat;
+    /* background-color: #E00800; */
+    /* background: url(Group\ 155125@2x.png); */
+    background: url(EGS\ Home\ -\ Our\ Capabilities/Group\ 155125@2x.png);
+}
+
+.card-sectionz {
+    justify-content: center;
+    opacity: 1;
+    background-repeat: no-repeat;
+    /* background-color: #E00800; */
+    /* background: url(Group\ 155125@2x.png); */
+    background: url(EGS\ Home\ -\ Testimonials/Testmonilas-bg@2x.png);
+    /* background-position-y: url(Company\ \ -\ Life\ at\ EGS/img-banner-dots.svg); */
+    justify-content: center;
+    /*  */
+
+}
+
+/* Service Cards */
+.servicex {
+    border-radius: 2rem;
+    margin-right: 2rem;
+    top: 360px;
+    left: 888px;
+    width: 365px;
+    height: 280px;
+    background: rgba(0, 0, 0, 0.3);
+    /* Transparent background */
+    border: 1px solid #FFFFFF14;
+    backdrop-filter: blur(24px);
+    -webkit-backdrop-filter: blur(24px);
+    padding: 20px;
+
+    /* Added padding for text */
+}
+
+/* Icon at the top edge of the card */
+.servicex .icon {
+    position: absolute;
+    top: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 40px;
+    height: 40px;
+    background: var(--unnamed-color-ddb973) 0% 0% no-repeat padding-box;
+    background: #DDB973 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+    padding: .5rem;
+}
+
+/* Headings */
+.h1x,
+.h2x {
+    color: #FFFFFF;
+    opacity: 1;
+    /* Ensure text is fully opaque */
+    padding-bottom: 2rem;
+    padding-top: 1rem;
+}
+
+.px {
+    color: #FFFFFF;
+    opacity: 1;
+    /* Ensure text is fully opaque */
+}
+
+/* Card Container */
+.cardx {
+    top: 265px;
+    left: 113px;
+    width: 1141px;
+    height: 509px;
+    border-bottom-left-radius: 2rem;
+
+}
+
+/* Container */
+.containerx {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    /* margin-bottom: rem; */
+    top: 0px;
+    left: 0px;
+    opacity: 1;
+
+}
+
+/* Services Row */
+.services-rowx {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.services-rowx:last-child {
+    margin-bottom: 0;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .services-rowx {
+        flex-direction: column;
+    }
+
+    .servicex {
+        margin-right: 0;
+        margin-bottom: 20px;
+        padding: 2rem 1rem;
+
+    }
+
+    .servicex:last-child {
+        margin-bottom: 0;
+
+    }
+
+    .servicex .icon {
+        top: -20px;
+        /* Adjust based on icon size */
+        left: 50%;
+        transform: translateX(-50%);
+        width: 40px;
+        /* Adjust based on icon size */
+        height: 40px;
+        /* Adjust based on icon size */
+
+    }
+}
+
+/* #endregion: capabilities-card2 section */
+
+
+/* #region Dynamic-Part */
+
+
+.section-one {
+    display: flex;
+    justify-content: space-around;
+    background: url(images-2/);
+    /* padding: 20rem; */
+    padding-left: 1rem;
+    padding-right: 10rem;
+    /* display: inline-flex; */
+    /* position: relative; */
+    padding-top: 4rem;
+}
+
+.titles {
+    display: flex;
+    flex-direction: column;
+}
+
+.title-container {
+    margin: 5px 0;
+}
+
+.title {
+    cursor: pointer;
+    transition: color 0.3s, transform 0.3s;
+}
+
+.title-name {
+    text-align: left;
+    color: #C0A365;
+    color: var(--unnamed-color-c0a365);
+    /* text-transform: uppercase; */
+    opacity: 1;
+    letter-spacing: 0px;
+    padding-bottom: 2rem;
+    /* font: normal normal bold 32px/42px Suisse Int'l;   */
+    /* font: normal normal bold 14px/18px Suisse Int'l; */
+
+
+    /* font: bold 5rem/5rem Suisse Int'l; */
+}
+
+.title-hint {
+
+    text-align: left;
+    color: #C0A365;
+
+    /* font: normal normal bold 16px/21px Suisse Int'l; */
+
+    /* font: bold 5rem/5rem Suisse Int'l; */
+
+    /* color: var(---252525-title);
+    text-align: left;
+    letter-spacing: 0px;
+    opacity: 1;
+    color: #252525;
+    font: normal normal bold 32px/42px Suisse Int'l; */
+
+}
+
+.images {
+    position: relative;
+    width: 20rem;
+    height: 20rem;
+}
+
+.images img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    transition: transform 0.3s;
+}
+
+.dotted-image {
+    transform: matrix(0.82, -0.57, 0.57, 0.82, 0, 0);
+    border: .20rem dashed #DDB974;
+    border-radius: 3rem;
+    opacity: 1;
+}
+
+.base-image {
+    transform: matrix(0.85, 0.53, -0.53, 0.85, 0, 0);
+    background: #BA8665 0% 0% no-repeat padding-box;
+    border-radius: 3rem;
+    opacity: 0.2;
+}
+
+.main-image {
+    z-index: 7;
+    background: transparent url('img/image4.png') 0% 0% no-repeat padding-box;
+    border-radius: 3rem;
+    opacity: 1;
+}
+
+.section-two {
+    background-image: url(images/img-dots.png);
+    padding-left: 4rem;
+    justify-content: center;
+    /* position: relative; */
+    /* display: block; */
+    align-items: center;
+    justify-items: center;
+    /* vertical-align: middle; */
+}
+
+
+.secondary-image {
+    /* transition: transform 0.3s, filter 0.3s; */
+    height: 25rem;
+    opacity: 1;
+    padding-top: 1rem;
+    /* position: relative; */
+    padding-bottom: 1.9rem;
+    /* vertical-align: middle; */
+    /* justify-content: center; */
+    /* padding-left:6rem; */
+    /* z-index: inherit; */
+    /* display: inline-flex; */
+
+    /* display: flexbox; */
+    /* display: contents; */
+
+}
+
+.gray {
+    filter: grayscale(100%);
+}
+
+.description {
+    padding-bottom: 7rem;
+    display: none;
+    margin-top: .5rem;
+    margin-left: 6rem;
+    color: var(---585a5c-description-body);
+    text-align: left;
+    opacity: 1;
+    color: #585A5C;
+    letter-spacing: 0px;
+    top: 1693px;
+    height: 72px;
+    width: 428px;
+    left: 264px;
+    font: normal normal normal 14px/18px Suisse Int'l;
+
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .section-one {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .title {
+        font-size: 14px;
+        /* Adjust font size for smaller screens */
+    }
+
+    .title-hint {
+        font-size: 24px;
+        /* Adjust font size for smaller screens */
+    }
+
+    .images {
+        max-width: 100%;
+        /* Ensure images are not too wide */
+    }
+
+    .description {
+        display: block;
+        /* Show descriptions on smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+
+    .title-name,
+    .title-hint {
+        font-size: 12px;
+        /* Further reduce font size for very small screens */
+    }
+
+    .description {
+        font-size: 12px;
+        /* Adjust font size for readability */
+    }
+}
+
+.dynamic-part {
+    position: relative;
+}
+
+/* #endregion */
+
+
+/* #region Footer */
+
+.footer-container {
+    padding-bottom: 1rem;
+}
+
+.footer {
+    /* width: 100%; */
+    background: linear-gradient(to top, #252525, #252626, #2D2C36);
+    /* opacity: 1; */
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding: 1rem;
+    top: 1190px;
+}
+
+.footer-heading {
+    display: flex;
+    flex-direction: column;
+    margin-right: 8rem;
+    margin-right: auto;
+    padding-top: 7rem;
+    /* padding-left: rem; */
+    padding-bottom: 2rem;
+    font: normal normal normal 18px/18px Suisse Int'l;
+
+}
+
+.footer-heading h2 {
+    margin-bottom: 2rem;
+    font: normal normal normal 14px/18px Suisse Int'l;
+
+}
+
+.footer-heading a {
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+    transition: 0.3s ease-out;
+}
+
+.footer-heading a:hover {
+    color: #e00800;
+}
+
+
+.footer-end {
+    display: flex;
+    color: #575A5C;
+    padding-left: 10vh;
+    margin-top: 2rem;
+    }
+
+.span {
+    padding-right: 1rem;
+    opacity: 1;
+}
+
+.span p {
+    color: #000000;
+    padding-left: 25rem;
+    font-weight: 2rem;
+    text-decoration: double;
+    font: normal normal bold 14px/18px Suisse Int'l;
+    
+}
+
+/* #endregion*/
+
+
+/* #region Video */
+.video-container {
+    /* position: fixed; */
+    top: 1rem;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1;
+}
+
+#bg-video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: translate(-50%, -50%);
+}
+
+.content {
+    position: relative;
+    z-index: 1;
+    color: white;
+    text-align: center;
+    /* padding: 100px 3px 3px; */
+    background-size: cover;
+    margin-top: 4rem;
+    color: #FFFFFF;
+    text-align: left;
+    width: 30rem;
+    margin-left: 6rem;
+}
+
+.content h1 {
+    font-size: 3rem;
+    color: #fff;
+    text-align: left;
+    font-weight: 1;
+}
+
+.content h1 span {
+    color: #ffd700;
+}
+
+.content p {
+    font-size: 1em;
+    margin: 20px 0;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button {
+    background-color: #e00800;
+    color: white;
+    padding: 10px 40px;
+    text-decoration: none;
+    border-radius: 1rem;
+    font-size: 15px;
+    margin: 20px 0;
+    display: inline-block;
+    font: normal normal bold 20px/26px Suisse Int'l;
+
+}
+
+/* #endregion */
+
+
+/*#region scroll bar */
+/* width */
+::-webkit-scrollbar {
+    width: 0px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: none; 
+    border-radius: 5px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgba(0, 0, 0, 0.5);; 
+    border-radius: 5px;
+  }
+  
+/* #endregion */

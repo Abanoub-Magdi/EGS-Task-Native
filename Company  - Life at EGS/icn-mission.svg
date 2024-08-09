@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60">
+  <g id="icn-mission" transform="translate(-1064.001 -324)">
+    <g id="Group_156782" data-name="Group 156782" transform="translate(842.001 -657)" opacity="0.26">
+      <rect id="Rectangle_43136" data-name="Rectangle 43136" width="60" height="60" rx="10" transform="translate(222 981)" fill="none"/>
+    </g>
+    <g id="mountain" transform="translate(1060.717 320.374)">
+      <path id="Path_379729" data-name="Path 379729" d="M49.14,26.8a2.28,2.28,0,0,0-3.828,0l-1.225,1.958,7.526,12.054a1.1,1.1,0,1,1-1.86,1.16L35.861,19.746a2.247,2.247,0,0,0-3.818,0c-.011.033-6.1,9.722-6.093,9.757l-7.8,12.47a1.1,1.1,0,0,1-1.859-1.16l7.416-11.868c-.8-1.128-1.522-3.283-3.249-3.194a2.206,2.206,0,0,0-1.914,1.05L6.283,46.436H61.391Z" transform="translate(0 1.076)" fill="#4a0f1f"/>
+      <path id="Path_379730" data-name="Path 379730" d="M35.06,50.51a1.094,1.094,0,0,0-1.094-1.094H7.714a1.094,1.094,0,1,0,0,2.188H33.966A1.094,1.094,0,0,0,35.06,50.51Z" transform="translate(0.024 3.271)" fill="#4a0f1f"/>
+      <path id="Path_379731" data-name="Path 379731" d="M45.342,53.5H32.216a1.094,1.094,0,1,0,0,2.188H45.342a1.094,1.094,0,1,0,0-2.188Z" transform="translate(1.774 3.562)" fill="#4a0f1f"/>
+      <path id="Path_379732" data-name="Path 379732" d="M26.965,57.584H13.839a1.094,1.094,0,1,0,0,2.188H26.965a1.094,1.094,0,1,0,0-2.188Z" transform="translate(0.462 3.854)" fill="#4a0f1f"/>
+      <path id="Path_379733" data-name="Path 379733" d="M57.593,49.417H44.467a1.094,1.094,0,1,0,0,2.188H57.593a1.094,1.094,0,1,0,0-2.188Z" transform="translate(2.649 3.271)" fill="#4a0f1f"/>
+      <path id="Path_379734" data-name="Path 379734" d="M33.167,17.682v-4.8H42.6a1.083,1.083,0,0,0,1.094-1.094V4.72A1.09,1.09,0,0,0,42.6,3.626H32.073A1.1,1.1,0,0,0,30.979,4.72V17.748A4.3,4.3,0,0,1,33.167,17.682Z" transform="translate(1.764)" fill="#4a0f1f"/>
+    </g>
+  </g>
+</svg>

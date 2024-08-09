@@ -1,0 +1,16 @@
+<svg id="icn-logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="104.674" height="47.886" viewBox="0 0 104.674 47.886">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_11780" data-name="Rectangle 11780" width="40.196" height="27.16" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Group_45775" data-name="Group 45775" transform="translate(0 0)">
+    <text id="Global_" data-name="Global " transform="translate(40.674 26.847)" fill="#f2f2f2" font-size="20" font-family="Helvetica-Bold, Helvetica" font-weight="700"><tspan x="0" y="0" letter-spacing="-0.037em">Global</tspan><tspan y="0"> </tspan></text>
+    <text id="Services" transform="translate(12.371 42.886)" fill="#f2f2f2" font-size="20" font-family="Helvetica-Bold, Helvetica" font-weight="700"><tspan x="0" y="0" letter-spacing="-0.037em">S</tspan><tspan y="0" letter-spacing="-0.036em">erv</tspan><tspan y="0" letter-spacing="-0.037em">ic</tspan><tspan y="0" letter-spacing="-0.036em">e</tspan><tspan y="0">s</tspan></text>
+    <g id="Group_45774" data-name="Group 45774" transform="translate(0 0)">
+      <g id="Group_45773" data-name="Group 45773" clip-path="url(#clip-path)">
+        <path id="Path_307279" data-name="Path 307279" d="M1799.522,1700.2a20.8,20.8,0,0,0,2.532-7.951H1797.7a17.158,17.158,0,0,1-1,4.875,13.283,13.283,0,0,1-2.239,3.913,6.992,6.992,0,0,1-5.273,2.678c-2.427,0-4.1-1.046-4.75-2.783h-4.645c-.753,1.8-2.532,2.72-4.771,2.72-2.469,0-5-1.779-5.273-5.4h14.5c.376-1.779,1.779-3.118,4.059-3.976,0,0,2.114-.774,4.206-1.674,2.888-1.339,5.064-3.725,5.064-6.759,0-4.31-3.683-5.8-7.01-5.8-4.2,0-7.3,2.2-7.3,5.712,0,2.072,1.13,4.018,2.782,5.964a11.961,11.961,0,0,0-2.49,1.214,8.811,8.811,0,0,0-8.62-6.089c-5.545,0-9.542,4.164-9.542,10.023,0,5.566,3.578,10.337,9.835,10.337a9.934,9.934,0,0,1,13.2,0,11.817,11.817,0,0,0,8.474-3.515l2.783,3.034h5.9Zm-8.934-16.886a2.614,2.614,0,0,1,2.887,2.678c0,1.632-.983,3.222-3.18,4.206l-.042-.042c-1.3-1.381-2.531-2.971-2.531-4.478s1.339-2.365,2.866-2.365m-15.673,6.905a4.89,4.89,0,0,1,4.959,4.875h-10.128a5.054,5.054,0,0,1,5.168-4.875" transform="translate(-1765.394 -1680.048)" fill="#df0a13"/>
+      </g>
+    </g>
+  </g>
+</svg>
