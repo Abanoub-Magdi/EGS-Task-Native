@@ -1,2 +1,2 @@
 # EGS-Task
-Assignment 
+Native HTML CSS JavaScript 
