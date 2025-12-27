@@ -6,6 +6,8 @@ A native HTML, CSS, and JavaScript web application assignment showcasing a moder
 
 **EGS Task Native** is a comprehensive multi-page website assignment built entirely with native web technologies. The project features a professional company website layout with multiple sections including hero sections, company capabilities, testimonials, and company culture pages. This demonstrates core web development skills using pure HTML5, CSS3, and JavaScript.
 
+![Project Preview](assets/project_preview.png)
+
 ## ✨ Features
 
 - 🎨 **Modern Design**: Clean, professional layout with responsive design
